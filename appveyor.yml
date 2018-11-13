@@ -2,7 +2,7 @@ init:
 
 install:
   - echo "start"
-  - appveyor DownloadFile "https://s3.cn-north-1.amazonaws.com.cn/dl.kendryte.com/documents/kendryte-toolchain-ubuntu-amd64-8.2.0.gz" -FileName "%TMP%/toolchain.gz"
+  - appveyor DownloadFile "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20181106/kendryte-toolchain-ubuntu-amd64-8.2.0-20181106.tar.gz" -FileName "%TMP%/toolchain.gz"
   - echo "Download Done!"
 
 build: off
