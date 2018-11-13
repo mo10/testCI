@@ -1,0 +1,8 @@
+init:
+
+install:
+  - echo "start"
+  - appveyor DownloadFile "https://s3.cn-north-1.amazonaws.com.cn/dl.kendryte.com/documents/kendryte-toolchain-ubuntu-amd64-8.2.0.gz" -FileName "%TMP%/toolchain.gz"
+  - echo "Download Done!"
+
+build: off
